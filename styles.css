@@ -134,6 +134,15 @@ img {
   padding: 4.5rem 0;
 }
 
+h1, h2, h3 { line-height: 1.2; margin-top: 0; }
+
+.hero__tagline {
+  margin: 0 0 1rem;
+  font-size: clamp(1.1rem, 2.2vw, 1.55rem);
+  font-weight: 600;
+  color: var(--muted);
+}
+
 .eyebrow {
   margin: 0;
   text-transform: uppercase;
