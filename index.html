@@ -1,9 +1,165 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>WPMC Website</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Woburn Public Media Center | Community Media Hub</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="#" aria-label="Woburn Public Media Center Home">WPMC</a>
+      <nav aria-label="Main navigation">
+        <ul class="nav-list">
+          <li><a href="#">Home</a></li>
+          <li><a href="#watch">Watch</a></li>
+          <li><a href="#classes">Classes</a></li>
+          <li><a href="#facilities">Facilities</a></li>
+          <li><a href="#government">Government Meetings</a></li>
+          <li><a href="#get-involved">Get Involved</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero__overlay"></div>
+      <div class="container hero__content">
+        <p class="eyebrow">Woburn Public Media Center</p>
+        <h1>Woburn’s Home for Community Media</h1>
+        <p class="hero__text">Watch local productions, stream government meetings, learn media production, and connect with your community through WPMC.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#watch">Watch Live</a>
+          <a class="btn btn--secondary" href="#get-involved">Become a Member</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="featured">
+      <div class="container">
+        <h2>Featured Productions</h2>
+        <p class="section-intro">Explore stories created by and for Woburn residents.</p>
+        <div class="grid cards-3">
+          <article class="card">
+            <img src="https://picsum.photos/600/360?random=1" alt="Placeholder for local documentary">
+            <h3>Neighborhood Stories</h3>
+            <p>Short documentaries highlighting community voices and local history.</p>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/600/360?random=2" alt="Placeholder for arts program">
+            <h3>Creative Woburn</h3>
+            <p>Interviews and performances featuring artists, makers, and musicians.</p>
+          </article>
+          <article class="card">
+            <img src="https://picsum.photos/600/360?random=3" alt="Placeholder for youth media program">
+            <h3>Youth Media Spotlight</h3>
+            <p>Student-produced segments sharing ideas, stories, and local perspectives.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="watch">
+      <div class="container split">
+        <div>
+          <h2>Watch Live &amp; Government Meetings</h2>
+          <p class="section-intro">Stay informed with live streams, public updates, and on-demand replays.</p>
+          <ul class="feature-list">
+            <li>Live channel schedule with upcoming programming.</li>
+            <li>Stream City Council, School Committee, and public hearings.</li>
+            <li>Browse archives of recent meetings and special sessions.</li>
+          </ul>
+        </div>
+        <div class="panel" id="government">
+          <h3>Now Streaming</h3>
+          <p>Government Meeting Channel</p>
+          <p class="muted">Placeholder player area for embedded live stream.</p>
+          <a class="btn btn--primary" href="#">Open Live Stream</a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="spotlight">
+      <div class="container">
+        <h2>Community Spotlight</h2>
+        <p class="section-intro">Celebrating the organizations, volunteers, and neighbors making a difference.</p>
+        <div class="grid cards-2">
+          <article class="card card--wide">
+            <img src="https://picsum.photos/720/400?random=4" alt="Placeholder for community spotlight">
+            <h3>Partner Highlight: Local Food Drive</h3>
+            <p>See how local nonprofits and residents came together for this month’s community food initiative.</p>
+          </article>
+          <article class="card card--wide">
+            <img src="https://picsum.photos/720/400?random=5" alt="Placeholder for volunteer story">
+            <h3>Volunteer Story: Meet the Crew</h3>
+            <p>Learn how volunteers support productions, events, and education programs at WPMC.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="classes">
+      <div class="container">
+        <h2>Classes &amp; Training</h2>
+        <p class="section-intro">Hands-on workshops for all skill levels, from beginner to advanced creator.</p>
+        <div class="grid cards-3">
+          <article class="card">
+            <h3>Intro to Video Production</h3>
+            <p>Learn camera fundamentals, audio basics, and storytelling essentials.</p>
+          </article>
+          <article class="card">
+            <h3>Podcast &amp; Audio Lab</h3>
+            <p>Develop your voice, record clean sound, and edit a polished episode.</p>
+          </article>
+          <article class="card">
+            <h3>Live Streaming Basics</h3>
+            <p>Get comfortable with switching, graphics, and multi-camera live events.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="facilities">
+      <div class="container split">
+        <div>
+          <h2>Facilities &amp; Studios</h2>
+          <p class="section-intro">Create with professional tools in a welcoming community environment.</p>
+          <ul class="feature-list">
+            <li>HD production studio with flexible set options.</li>
+            <li>Podcast booths and audio recording spaces.</li>
+            <li>Edit suites with industry-standard software.</li>
+          </ul>
+        </div>
+        <div class="grid cards-2 compact">
+          <article class="card"><h3>Studio A</h3><p>Multi-camera talk shows and interviews.</p></article>
+          <article class="card"><h3>Studio B</h3><p>Small-group productions and training sessions.</p></article>
+          <article class="card"><h3>Audio Booth</h3><p>Voiceover and podcast recording.</p></article>
+          <article class="card"><h3>Edit Suite</h3><p>Post-production and finishing workspace.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta" id="get-involved">
+      <div class="container cta__inner">
+        <h2>Membership &amp; Get Involved</h2>
+        <p>Join WPMC to produce content, access training, and help shape community media in Woburn.</p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#">Become a Member</a>
+          <a class="btn btn--secondary" href="#">Volunteer with Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-wrap">
+      <p>© 2026 Woburn Public Media Center</p>
+      <p>Serving Woburn through accessible, community-driven media.</p>
+    </div>
+  </footer>
 </body>
 </html>
